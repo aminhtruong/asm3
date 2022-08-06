@@ -1,0 +1,78 @@
+@media (max-width: 992px) {
+  .nav3 {
+    display: none;
+  }
+
+  #container-info {
+    padding: 0px 0px;
+  }
+
+  #target,
+  #personal-info {
+    padding: 64px 32px;
+  }
+  .section-title {
+    font-size: 18px;
+  }
+
+  #job-info .container {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-title h1 {
+    font-size: 18px;
+  }
+  .info-details-content p {
+    font-size: 10px;
+  }
+  .info-details-content ul {
+    padding-left: 0px;
+  }
+
+  .st {
+    position: relative;
+    top: -80px;
+  }
+  .nn {
+    position: relative;
+    top: 0px;
+  }
+  .kn {
+    position: relative;
+    top: -180px;
+  }
+
+  .chungchi-giaithuong {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 64px;
+    column-gap: 0px;
+
+    margin-top: 48px;
+    position: relative;
+  }
+
+  .chungchi {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+  }
+  .chungchi-img {
+    width: 100%;
+  }
+
+  .block {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #banner {
+    background-position: center;
+    height: 50vh;
+  }
+}
